@@ -29,8 +29,6 @@ fi
 #example call for nefertiti bot
 ./nefertiti buy --exchange=[EXCHANGE] --api-key=[API_KEY] --api-secret=[API_SECRECT] --market=all --quote=USDT --volume=10 --price=5 --top=1 --dip=$DIP --repeat=1
 
-#example call of the script using PM2. Restart the script every day at 5 am according to time you have set in your system
-#pm2 start "[YOUR_SCRIPT].sh" --cron-restart="0 5 * * *"
-
-#Nefertiti_Set_Dip_Greed_Fear_Index
+#example call of the script using PM2. Restart the script every day at 3am according to time you have set in your system
+#pm2 start "[YOUR_SCRIPT].sh" --cron-restart="0 3 * * *"
 
